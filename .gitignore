@@ -1,8 +1,10 @@
 .DS_Store
 /node_modules
 /.next
+!/lib
 /lib/js
-/lib/styles
+!/lib/styles
+/lib/styles/*
 !/lib/styles/amp-spectre
 !/lib/styles/amp-surface
 .idea
