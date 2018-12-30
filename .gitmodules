@@ -1,0 +1,6 @@
+[submodule "lib/styles/amp-spectre"]
+	path = lib/styles/amp-spectre
+	url = https://github.com/niutech/amp-spectre.git
+[submodule "lib/styles/amp-surface"]
+	path = lib/styles/amp-surface
+	url = https://github.com/niutech/amp-surface.git

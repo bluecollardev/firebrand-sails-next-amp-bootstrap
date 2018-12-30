@@ -1,0 +1,60 @@
+{
+  "private": true,
+  "name": "firebrand-sails-next-amp-bootstrap",
+  "version": "1.0.0",
+  "description": "Full-stack bootstrap for next-gen Sails + React apps supporting server-rendered AMP output.",
+  "main": "",
+  "scripts": {
+    "init": "yarn install && yarn run install-submodules",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint -c ./package.json ./pages",
+    "install-submodules": "bash install-submodules.sh",
+    "install-templates": "bash install-sample-templates.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Lucas Lopatka",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "next": "^5.1.0",
+    "react": "^16.3.1",
+    "react-amphtml": "^3.0.0",
+    "react-dom": "^16.3.1",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "sails": "^1.1.0",
+    "sails-disk": "^1.0.1",
+    "sails-hook-babel": "^7.0.0",
+    "styled-components": "^3.2.5"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "react/jsx-filename-extension": "off"
+    }
+  }
+}
